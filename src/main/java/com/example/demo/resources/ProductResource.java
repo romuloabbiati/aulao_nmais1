@@ -26,7 +26,7 @@ public class ProductResource {
 			) {
 		
 		PageRequest pageRequest = PageRequest.of(page, size);
-		Page<ProductDTO> list = service.find(pageRequest);
-		return ResponseEntity.ok(list);
+		Page<ProductDTO> pageDTO = service.find(pageRequest);
+		return ResponseEntity.ok(pageDTO);
 	}
 }

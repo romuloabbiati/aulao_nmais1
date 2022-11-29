@@ -1,10 +1,6 @@
-# Aulão Problema N+1 queries com Spring Data JPA
+# This was a lecture provided by DevSuperior on how to fix the N+1 issue
 
-#### Assista o vídeo desta aula:
-
-[![Image](https://img.youtube.com/vi/sqbqoR-lMf8/mqdefault.jpg "Vídeo no Youtube")](https://youtu.be/sqbqoR-lMf8)
-
-#### Testes SQL
+#### SQL tests
 
 ```
 SELECT * FROM tb_product LIMIT 0,5
